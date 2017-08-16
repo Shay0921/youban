@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+	<div id="reg">
+		<form action="#" method="post">
+			<ul>
+				<li class="n"><span>用户名：</span><input type="text" name="uname"  placeholder="请输入用户名" id="uname"><b class="error">用户名不能为空</b></li>
+				<li class="p"><span>密码：</span><input type="password" name="upwd"  placeholder="请输入密码" id="upwd"><b class="error">密码不能为空</b></li>
+				<li><span>电子邮件：</span><input type="email" name="uemail"  placeholder="请输入电子邮箱" id="uemail"></li>
+				<li><span>个人主页：</span><input type="url" name="uhome" placeholder="请输入个人主页"></li>
+				<li><span>年龄：</span><input type="number" name="uage" placeholder="请输入年龄"></li>
+				<li><span>出生日期：</span><input type="date" name="ubirth"></li>
+				<li><span></span><input type="button" value="注册" id="btn"></li>
+			</ul>
+		</form>	
+	</div>
+	<video src="res/snow.mp4" autoplay loop></video>
+	<script src="js/jquery-1.11.3.js"></script>
+	<script src="js/register.js"></script>
+	<script>
+		$('[name=uemail]').blur(function(){
+			console.log($(this).val());
+			if(this.validity.valueMissing){
+				var msg="用户邮箱不能为空";
+				this.setCustomValidity(msg);
+			}else if(this.validity.tooShort){
+				var msg="用户邮箱不能少于12位";
+				this.setCustomValidity(msg);
+			}else{
+				this.setCustomValidity('');
+			}
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+/*通用样式*/
+@font-face {
+  font-family: "FontAwesome";
+  src: url("../fonts/fontawesome-webfont.ttf");
+}
+body,
+#top_box,
+#top_banner_box,
+#top_nav,
+#free_box,
+#bottom_banner_box,
+#foot_aboutUs,
+#foot_recoding_box {
+  width: 100%;
+  min-width: 1160px;
+  min-height: 30px;
+}
+#top_banner,
+#interest,
+#freedom,
+#travel_note,
+#bottom_banner,
+#foot_app,
+#foot_aboutUs,
+#foot_recoding {
+  width: 1160px;
+  min-height: 20px;
+  margin: 0 auto;
+}
+body {
+  color: #323232;
+  font-size: 14px;
+  font-family: "microsoft yahei", arial;
+  -webkit-font-smoothing: antialiased;
+}
+a {
+  color: #323232;
+  font-size: 14px;
+  text-decoration: none;
+}
+body,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dt,
+dd,
+input,
+button,
+b,
+i,
+u,
+s {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: none;
+  outline: none;
+}
+img {
+  vertical-align: bottom;
+}
+div:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.lf {
+  float: left;
+}
+.rt {
+  float: right;
+}

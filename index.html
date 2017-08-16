@@ -1,0 +1,857 @@
+<!doctype html>
+<html lang="en">
+<head>
+		<meta charset="UTF-8">
+		<title>我的游伴首页</title>
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="jquery-ui-1.11.4/jquery-ui.css">
+		<link rel="stylesheet" href="css/animate.min.css">
+	</head>
+<body>
+
+		
+		<!-- 顶部模块(导航、轮播、搜索框) -->
+		<header id="top_box">
+			<!-- 顶部导航栏 -->
+			<div id="top_nav">
+				<ul class="lf">
+					<li><a href="">目的地</a></li>
+					<li><a href="">锦囊</a></li>
+					<li><a href="">行程助手</a></li>
+					<li class="community">
+						<a href="">社区<b></b></a>
+						<div id="community_box">
+							<span></span>
+							<ul>
+								<li class="luntan">
+									<a href="">
+										<i></i>
+										旅行论坛
+										<s></s>
+									</a>
+									<div id="hot_box_box">
+										<div id="hot_box">
+											<p>
+												热门版块
+												<a href="">全部版块<s></s></a>
+											</p>
+											<div class="list_box">
+												<p>兴趣小组</p>
+												<ul>
+													<li><a href="">结伴同行</a></li>
+													<li><a href="">签证</a></li>
+													<li><a href="">旅行摄影</a></li>
+													<li><a href="">潜水俱乐部</a></li>
+													<li><a href="">带孩子旅行</a></li>
+													<li><a href="">明信片</a></li>
+													<li><a href="">旅行购物</a></li>
+												</ul>
+											</div>
+											<div class="list_box">
+												<p>游伴欧洲</p>
+												<ul>
+													<li><a href="">法国/摩洛哥</a></li>
+													<li><a href="">德国</a></li>
+													<li><a href="">英国/爱尔兰</a></li>
+													<li><a href="">瑞士/列支敦士登</a></li>
+													<li><a href="">土耳其</a></li>
+													<li><a href="">挪威/瑞典/芬兰/丹麦/冰岛</a></li>
+													<li><a href="">意大利/梵蒂冈/圣马力诺/马耳他</a></li>
+												</ul>
+											</div>
+											<div class="list_box">
+												<p>游伴亚洲</p>
+												<ul>
+													<li><a href="">台湾</a></li>
+													<li><a href="">日本</a></li>
+													<li><a href="">泰国</a></li>
+													<li><a href="">新加坡</a></li>
+													<li><a href="">斯里兰卡</a></li>
+													<li><a href="">韩国/朝鲜</a></li>
+													<li><a href="">马来西亚/文莱</a></li>
+													<li><a href="">柬埔寨</a></li>
+													<li><a href="">马尔代夫</a></li>
+													<li><a href="">缅甸</a></li>
+													<li><a href="">伊朗</a></li>
+													<li><a href="">印度/孟加拉</a></li>
+												</ul>
+											</div>
+											<div class="list_box">
+												<p>游伴美洲</p>
+												<ul>
+													<li><a href="">加拿大</a></li>
+													<li><a href="">美国</a></li>
+													<li><a href="">中美</a></li>
+													<li><a href="">南美/南极</a></li>
+												</ul>
+											</div>
+											<div class="list_box">
+												<p>游伴大洋洲</p>
+												<ul>
+													<li><a href="">澳大利亚</a></li>
+													<li><a href="">新西兰</a></li>
+													<li><a href="">太平洋海岛</a></li>
+													<li><a href="">瑞士/列支敦士登</a></li>
+													<li><a href="">土耳其</a></li>
+													<li><a href="">挪威/瑞典/芬兰/丹麦/冰岛</a></li>
+													<li><a href="">意大利/梵蒂冈/圣马力诺/马耳他</a></li>
+												</ul>
+											</div>
+											<div class="list_box" style="border:none;">
+												<p>游伴非洲</p>
+												<ul>
+													<li><a href="">东非地区</a></li>
+													<li><a href="">非洲海岛</a></li>
+													<li><a href="">北非地区</a></li>
+													<li><a href="">非洲其他国家</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="wenda">
+									<a href="">
+										<i></i>
+										旅行问答
+									</a>
+								</li>
+								<li class="meixue">
+									<a href="">
+										<i></i>
+										JNE旅行生活美学
+									</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li id="freedomRide">
+						<a href="">最世界·自由行</a>
+						<b></b>
+						<i></i>
+					</li>
+					<li><a href="">机票</a></li>
+					<li><a href="">酒店</a></li>
+					<li class="reserve">
+						<a href="">预定<b></b></a>
+						<div id="reserve_box">
+							<span></span>
+							<ul>
+								<li class="specialHotel">
+									<a href=""><b></b>特价酒店</a>
+								</li>
+								<li class="airbnb">
+									<a href=""><b></b>Airbnb</a>
+								</li>
+								<li class="insurance">
+									<a href=""><b></b>保险</a>
+								</li>
+								<li class="huaren">
+									<a href=""><b></b>华人旅馆</a>
+								</li>
+								<li class="cruise">
+									<a href=""><b></b>游轮</a>
+								</li>
+								<li class="taxi">
+									<a href=""><b></b>租车</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li id="right_nav" class="rt">
+						<ul>
+							<li class="input_box">
+								<b></b>
+								<input type="" />
+							</li>
+							<li class="border-left"><b></b></li>
+							<li class="qq">
+								<a href=""></a>
+							</li>
+							<li class="weibo">
+								<a href=""></a>
+							</li>
+							<li class="weixin">
+								<a href=""></a>
+							</li>
+							<li>
+								<a href="register.html">注册</a>
+								<a href="">登录</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<!-- 顶部轮播 -->
+			<div id="top_carousel">
+				<ul id="carousel_images" style="">
+					<li>
+						<a href="#"><img style="width:100%;"src="images/index/14857940254836.jpg"/></a>
+					</li>
+					<li>
+						<a  href="#"><img style="width:100%;"src="images/index/14857942776456.jpg"/></a>
+					</li>
+					<li>
+						<a href="#" ><img style="width:100%;"src="images/index/14857936938246.jpg"/></a>
+					</li>
+					<li>
+						<a href="#" ><img style="width:100%;"src="images/index/14884249745293.jpg"/></a>
+					</li>
+					<li>
+						<a href="#" ><img style="width:100%;"src="images/index/14912786479447.jpg"/></a>
+					</li>
+				</ul>
+				<div class="previous">
+					<a href="#"></a>
+				</div>
+				<div class="next">
+					<a href="#"></a>
+				</div>
+			</div>
+			<!-- 搜索框 -->
+			<div id="search_box" class="clear">
+				<ul class="clear">
+					<li class="des_selected"><b style="background-position:0 0"></b><h3>目的地</h3></li>
+					<li class="schedule"><b></b><h3>做行程</h3></li>
+					<li class="discount"><b></b><h3>买折扣</h3></li>
+					<li class="hotel"><b></b><h3>酒店</h3></li>
+				</ul>
+				<div>
+					<div class="search" style="display:block;">
+						<input type="text" placeholder="新年快乐！恭喜发财！" />
+						<button>搜索</button>
+						<div id="city_select" class="hide">
+							<p>热门城市</p>
+							<ul>
+								<li><a href="">香港</a></li>
+								<li><a href="">曼谷</a></li>
+								<li><a href="">东京</a></li>
+								<li><a href="">澳门</a></li>
+								<li><a href="">首尔</a></li>
+								<li><a href="">京都</a></li>
+								<li><a href="">大阪</a></li>
+								<li><a href="">台湾</a></li>
+								<li><a href="">巴黎</a></li>
+								<li><a href="">罗马</a></li>
+								<li><a href="">清迈</a></li>
+								<li><a href="">新加坡</a></li>
+								<li><a href="">台北</a></li>
+								<li><a href="">吉隆坡</a></li>
+								<li><a href="">威尼斯</a></li>
+								<li><a href="">普吉岛</a></li>
+								<li><a href="">佛罗伦萨</a></li>
+								<li><a href="">洛杉矶</a></li>
+								<li><a href="">米兰</a></li>
+								<li><a href="">奈良</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="schedule_tag">
+						<p>一分钟搞定你的攻略</p>
+						<div>
+							<a href=""><b></b><h3>创建行程</h3></a>
+							<a href=""><b></b><h3>免费定制</h3></a>
+						</div>
+					</div>
+					<div class="discount_tag">
+						<input type="" placeholder="搜索目的地/折扣类型/关键词" />
+						<button>搜索</button>
+						<div id="city_select" class="hide">
+							<p>热门城市</p>
+							<ul>
+								<li><a href="">香港</a></li>
+								<li><a href="">曼谷</a></li>
+								<li><a href="">东京</a></li>
+								<li><a href="">澳门</a></li>
+								<li><a href="">首尔</a></li>
+								<li><a href="">京都</a></li>
+								<li><a href="">大阪</a></li>
+								<li><a href="">台湾</a></li>
+								<li><a href="">巴黎</a></li>
+								<li><a href="">罗马</a></li>
+								<li><a href="">清迈</a></li>
+								<li><a href="">新加坡</a></li>
+								<li><a href="">台北</a></li>
+								<li><a href="">吉隆坡</a></li>
+								<li><a href="">威尼斯</a></li>
+								<li><a href="">普吉岛</a></li>
+								<li><a href="">佛罗伦萨</a></li>
+								<li><a href="">洛杉矶</a></li>
+								<li><a href="">米兰</a></li>
+								<li><a href="">奈良</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="hotel_tag">
+						<input type="" placeholder="请输入目的地/酒店名" />
+						<input name="in-date" placeholder="入住时间">
+						<input name="out-date" placeholder="退房时间">
+						<button>搜索酒店</button>
+					</div>
+				</div>
+			</div>
+		
+		</header>
+		<!-- 顶部两个广告图 -->
+		<div id="top_banner_box">
+			<div id="top_banner">
+				<a href="" class="lf"><img src="images/index/top_banner_1.png" class="shake" alt="" /></a>
+				<a href="" class="rt"><img src="images/index/top_banner_2.png" alt="" /></a>
+			</div>
+		</div>
+		<!-- 猜你感兴趣 -->
+		<section id="interest" class="clear">
+			<h1 class="title">猜你感兴趣</h1>
+			<div class="list_1">
+				<p>
+					<a href=""><b></b>换一换</a>
+				</p>
+				<ul>
+					<li class="li1">
+						<a href=""><img src="images/index/275x185-li1.jpg" alt="" /></a>
+						<div class="text">
+							<h3><a href="">元祖串炸(道顿堀店)</a></h3>
+							<p><a href="">Daruma Kushikatsu(Dotonbori)</a></p>
+							<div class="bottom">
+								<b><a href="">当地美食排名第5</a></b>
+								<h4><a href="">大阪美食</a></h4>
+							</div>
+						</div>
+						<!-- 圆形 -->
+						<div class="circle cate">
+							<i></i>
+							<u></u>
+							<b>美食</b>
+						</div>
+						<!-- 绿色遮罩层 -->
+						<div class="maskLayer">
+							<b>您可能感兴趣的景点</b>
+						</div>
+					</li>
+					<li class="li2">
+						<a href=""><img src="images/index/275x185-li2.jpg" alt="" /></a>
+						<div class="text">
+							<h3><a href="">京都</a></h3>
+							<p><a href="">Kyoto</a></p>
+							<div class="bottom">
+								<b><a href="">61878个人去过这里</a></b>
+								<h4><a href="">日本城市</a></h4>
+							</div>
+						</div>
+						<div class="circle city">
+							<i></i>
+							<u></u>
+							<b>城市</b>
+						</div>
+						<!-- 绿色遮罩层 -->
+						<div class="maskLayer">
+							<b>您可能感兴趣的景点</b>
+						</div>
+					</li>
+					<li class="li3">
+						<a href=""><img src="images/index/275x185-li3.jpg" alt="" /></a>
+						<div class="text">
+							<h3><a href="">穿梭巴士游宰恩公园</a></h3>
+							<p><a href="">Zion by shuttle</a></p>
+							<div class="bottom">
+								<b><a href="">当地活动排名第1</a></b>
+								<h4><a href="">锡安国家公园活动</a></h4>
+							</div>
+						</div>
+						<div class="circle activity">
+							<i></i>
+							<u></u>
+							<b>活动</b>
+						</div>
+						<!-- 绿色遮罩层 -->
+						<div class="maskLayer">
+							<b>您可能感兴趣的景点</b>
+						</div>
+					</li>
+					<!-- 第四个li -注册部分 -->
+					<li class="li4" style="margin:0;">
+						<div class="align_center">
+							<h3>让我们更懂你</h3>
+							<p>拥有游伴账号，获得更精准的推荐</p>
+							<button>立即注册</button>
+						</div>
+						<div class="related">
+							<p>已有账号？<a href="">登录</a></p>
+							<a href="">使用邮箱注册</a>
+							<b class="qq"></b>
+							<b class="weibo"></b>
+							<b class="weixin"></b>
+						</div>
+					</li>
+					<li class="li5">
+						<a href=""><img src="images/index/275x185-li4.jpg" alt="" /></a>
+						<div class="text">
+							<h3><a href="">在奈梅亨徒步，偶遇荷兰国王</a></h3>
+							<p><a href=""></a></p>
+							<div class="bottom">
+								<b><a href="">5106人浏览过</a></b>
+								<h4><a href="">罗老汉</a></h4>
+							</div>
+						</div>
+						<div class="circle note">
+							<i></i>
+							<u></u>
+							<b>游记</b>
+						</div>
+						<!-- 绿色遮罩层 -->
+						<div class="maskLayer">
+							<b>您可能感兴趣的景点</b>
+						</div>
+					</li>
+					<li class="li6">
+						<a href=""><img src="images/index/275x185-li5.jpg" alt="" /></a>
+						<div class="text">
+							<h3><a href="">驶向幸福的国度————2016夏偕老带幼挪威、冰岛、丹麦之旅(6个)</a></h3>
+							<p><a href=""></a></p>
+							<div class="bottom">
+								<b><a href="">42864人浏览过</a></b>
+								<h4><a href="">不变应万变</a></h4>
+							</div>
+						</div>
+						<div class="circle note">
+							<i></i>
+							<u></u>
+							<b>游记</b>
+						</div>
+						<!-- 绿色遮罩层 -->
+						<div class="maskLayer">
+							<b>您可能感兴趣的景点</b>
+						</div>
+					</li>
+					<li class="li7">
+						<a href=""><img src="images/index/275x185-li6.jpg" alt="" /></a>
+						<div class="text">
+							<h3><a href="">去慕尼黑看看</a></h3>
+							<p><a href=""></a></p>
+							<div class="bottom">
+								<b><a href="">推荐了5个目的地</a></b>
+								<h4><a href="">苏慕mu</a></h4>
+							</div>
+						</div>
+						<div class="circle tips">
+							<i></i>
+							<u></u>
+							<b>微锦囊</b>
+						</div>
+						<!-- 绿色遮罩层 -->
+						<div class="maskLayer">
+							<b>您可能感兴趣的景点</b>
+						</div>
+					</li>
+					<li class="li8" style="margin:0;">
+						<a href=""><img src="images/index/275x185-li7.jpg" alt="" /></a>
+						<div class="text">
+							<h3><a href="">【元旦/春节/寒假】上海/杭州/北京/成都直飞普吉岛6-7天自由</a></h3>
+							<p><a href=""></a></p>
+							<div class="bottom">
+								<b><a href=""><span>2999</span>元起</a></b>
+								<h4><a href="">普吉岛</a></h4>
+							</div>
+						</div>
+						<div class="circle discount">
+							<i></i>
+							<u></u>
+							<b>折扣</b>
+						</div>
+						<!-- 绿色遮罩层 -->
+						<div class="maskLayer">
+							<b>您可能感兴趣的景点</b>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<!-- 最世界自由行 -->
+		<section id="free_box" class="clear">
+			<p class="title">
+				<img src="images/index/zworld-title.png" alt="" />
+			</p>
+			<div id="freedom">
+				<!-- 第一页三幅图 -->
+				<ul class="freedom_1">
+					<li class="li1">
+						<div class="top">
+							<h1>限时低价</h1>
+							<div class="img">
+								<img src="images/index/freedom-li1.jpg" alt="" />
+								<p>【特价韩国！】北京/石家庄首飞首尔4-6天往返含税机票</p>
+							</div>
+							<div class="price">
+								<b><span>1199</span>元起</b>
+								<a href="">立即抢购</a>
+							</div>
+						</div>
+						<p class="more_price"><a href="">更多低价：【樱花季】上海直飞大阪6天5晚自由行</a></p>
+					</li>
+					<li class="li2">
+						<div class="top">
+							<h1>特价签证</h1>
+							<div class="img">
+								<img src="images/index/freedom-li2.jpg" alt="" />
+								<p>【全国收件】新西兰个人旅游签证</p>
+							</div>
+							<div class="price">
+								<b><span>1199</span>元起</b>
+								<a href="">立即抢购</a>
+							</div>
+						</div>
+					</li>
+					<li class="li3" style="margin:0;">
+						<div class="top">
+							<h1>城市玩乐</h1>
+							<div class="img">
+								<img src="images/index/freedom-li3.jpg" alt="" />
+								<p>与泰国一起&nbsp;为美食疯狂<br />曼谷+清迈人气餐厅大盘点</p>
+							</div>
+							<div class="price">
+								<b><span>98</span>元起</b>
+								<a href="">立即抢购</a>
+							</div>
+						</div>
+						<p class="more_price"><a href="">更多玩乐：烂漫纯净新西兰&nbsp;动静皆可皇后镇</a></p>
+					</li>
+				</ul>
+				<!-- 第2页三幅图 -->
+				<ul class="freedom_2">
+					<li class="li1">
+						<div class="top">
+							<h1>限时低价</h1>
+							<div class="img">
+								<img src="images/index/freedom-li4.jpg" alt="" />
+								<p>【清明/端午假期】多地直飞清迈5-6天自由行</p>
+							</div>
+							<div class="price">
+								<b><span>2280</span>元起</b>
+								<a href="">立即抢购</a>
+							</div>
+						</div>
+						<p class="more_price"><a href="">更多低价：【清明/五一假期】广州/深圳直飞新加坡2-7天自由行</a></p>
+					</li>
+					<li class="li2">
+						<div class="top">
+							<h1>特价签证</h1>
+							<div class="img">
+								<img src="images/index/freedom-li5.jpg" alt="" />
+								<p>【全国受理】马来西亚个人旅游签证</p>
+							</div>
+							<div class="price">
+								<b><span>308</span>元起</b>
+								<a href="">立即抢购</a>
+							</div>
+						</div>
+						<p class="more_price"><a href="">更多特价：阿联酋个人旅游电子签证</a></p>
+					</li>
+					<li class="li3" style="margin:0;">
+						<div class="top">
+							<h1>城市玩乐</h1>
+							<div class="img">
+								<img src="images/index/freedom-li6.jpg" alt="" />
+								<p>相约游伴Q-home 共赴樱花海<br />评点日本热门与冷门赏樱地点</p>
+							</div>
+							<div class="price">
+								<b><span>98</span>元起</b>
+								<a href="">立即抢购</a>
+							</div>
+						</div>
+						<p class="more_price"><a href="">更多玩乐：征服大洋路 随心墨尔本</a></p>
+					</li>
+				</ul>
+				<!-- 第3页三幅图 -->
+				<ul class="freedom_3">
+					<li class="li1">
+						<div class="top">
+							<h1>限时低价</h1>
+							<div class="img">
+								<img src="images/index/freedom-li1.jpg" alt="" />
+								<p>【特价韩国！】北京/石家庄首飞首尔4-6天往返含税机票</p>
+							</div>
+							<div class="price">
+								<b><span>1199</span>元起</b>
+								<a href="">立即抢购</a>
+							</div>
+						</div>
+						<p class="more_price"><a href="">更多低价：【樱花季】上海直飞大阪6天5晚自由行</a></p>
+					</li>
+					<li class="li2">
+						<div class="top">
+							<h1>特价签证</h1>
+							<div class="img">
+								<img src="images/index/freedom-li2.jpg" alt="" />
+								<p>【全国收件】新西兰个人旅游签证</p>
+							</div>
+							<div class="price">
+								<b><span>1199</span>元起</b>
+								<a href="">立即抢购</a>
+							</div>
+						</div>
+					</li>
+					<li class="li3" style="margin:0;">
+						<div class="top">
+							<h1>城市玩乐</h1>
+							<div class="img">
+								<img src="images/index/freedom-li3.jpg" alt="" />
+								<p>与泰国一起&nbsp;为美食疯狂<br />曼谷+清迈人气餐厅大盘点</p>
+							</div>
+							<div class="price">
+								<b><span>98</span>元起</b>
+								<a href="">立即抢购</a>
+							</div>
+						</div>
+						<p class="more_price"><a href="">更多玩乐：烂漫纯净新西兰&nbsp;动静皆可皇后镇</a></p>
+					</li>
+				</ul>
+				<!-- 第4页三幅图 -->
+				<ul class="freedom_4">
+					<li class="li1">
+						<div class="top">
+							<h1>限时低价</h1>
+							<div class="img">
+								<img src="images/index/freedom-li4.jpg" alt="" />
+								<p>【清明/端午假期】多地直飞清迈5-6天自由行</p>
+							</div>
+							<div class="price">
+								<b><span>2280</span>元起</b>
+								<a href="">立即抢购</a>
+							</div>
+						</div>
+						<p class="more_price"><a href="">更多低价：【清明/五一假期】广州/深圳直飞新加坡2-7天自由行</a></p>
+					</li>
+					<li class="li2">
+						<div class="top">
+							<h1>特价签证</h1>
+							<div class="img">
+								<img src="images/index/freedom-li5.jpg" alt="" />
+								<p>【全国受理】马来西亚个人旅游签证</p>
+							</div>
+							<div class="price">
+								<b><span>308</span>元起</b>
+								<a href="">立即抢购</a>
+							</div>
+						</div>
+						<p class="more_price"><a href="">更多特价：阿联酋个人旅游电子签证</a></p>
+					</li>
+					<li class="li3" style="margin:0;">
+						<div class="top">
+							<h1>城市玩乐</h1>
+							<div class="img">
+								<img src="images/index/freedom-li6.jpg" alt="" />
+								<p>相约游伴Q-home 共赴樱花海<br />评点日本热门与冷门赏樱地点</p>
+							</div>
+							<div class="price">
+								<b><span>98</span>元起</b>
+								<a href="">立即抢购</a>
+							</div>
+						</div>
+						<p class="more_price"><a href="">更多玩乐：征服大洋路 随心墨尔本</a></p>
+					</li>
+				</ul>
+				<!-- 第5页三幅图 -->
+				<ul class="freedom_5">
+					<li class="li1">
+						<div class="top">
+							<h1>限时低价</h1>
+							<div class="img">
+								<img src="images/index/freedom-li1.jpg" alt="" />
+								<p>【特价韩国！】北京/石家庄首飞首尔4-6天往返含税机票</p>
+							</div>
+							<div class="price">
+								<b><span>1199</span>元起</b>
+								<a href="">立即抢购</a>
+							</div>
+						</div>
+						<p class="more_price"><a href="">更多低价：【樱花季】上海直飞大阪6天5晚自由行</a></p>
+					</li>
+					<li class="li2">
+						<div class="top">
+							<h1>特价签证</h1>
+							<div class="img">
+								<img src="images/index/freedom-li2.jpg" alt="" />
+								<p>【全国收件】新西兰个人旅游签证</p>
+							</div>
+							<div class="price">
+								<b><span>1199</span>元起</b>
+								<a href="">立即抢购</a>
+							</div>
+						</div>
+					</li>
+					<li class="li3" style="margin:0;">
+						<div class="top">
+							<h1>城市玩乐</h1>
+							<div class="img">
+								<img src="images/index/freedom-li3.jpg" alt="" />
+								<p>与泰国一起&nbsp;为美食疯狂<br />曼谷+清迈人气餐厅大盘点</p>
+							</div>
+							<div class="price">
+								<b><span>98</span>元起</b>
+								<a href="">立即抢购</a>
+							</div>
+						</div>
+						<p class="more_price"><a href="">更多玩乐：烂漫纯净新西兰&nbsp;动静皆可皇后镇</a></p>
+					</li>
+				</ul>
+			</div>
+			<!-- 底部轮播控件 -->
+			<div class="slider_control">
+				<a class="current"></a>
+				<a></a>
+				<a ></a>
+				<a></a>
+				<a></a>
+			</div>
+			<a href="" class="viewMore">查看更多折扣</a>
+		</section>
+		<!-- 热门游记与话题 -->
+		<section id="travel_note">
+			<h1 class="title">热门游记与话题</h1>
+			<ul class="list">
+				<!--8个li-->
+			</ul>
+			<!-- 底部轮播控件 -->
+			<div class="slider_control">
+				<a href="" class="current"></a>
+				<a href=""></a>
+				<a href=""></a>
+				<a href=""></a>
+				<a href=""></a>
+			</div>
+			<a href="" class="viewMore">查看更多游记</a>
+		</section>
+		<!-- 底部广告banner -->
+		<section id="bottom_banner_box">
+			<div id="bottom_banner" class="clear">
+				<div class="left lf">
+					<h1 class="title">免费体验，限时领取中</h1>
+					<div class="left_box">
+						<a href=""><img src="images/index/city-walk.jpg" alt="" /></a>
+						<div class="maskLayer">
+							<a href="">距离结束：7天22小时32分53秒</a>
+						</div>
+						<div class="text">
+							<a href="" class="words">最世界City&nbsp;Walk全球独家日有免费体验</a>
+							<a href="" class="apply">免费申请</a>
+							<p class="price">价值&nbsp;&yen;300</p>
+							<p class="count">免费体验名额10个</p>
+						</div>
+					</div>
+				</div>
+				<div class="center lf">
+					<h1 class="title"></h1>
+					<div class="center_box">
+						<a href=""><img src="images/index/advtry.png" alt="" /></a>
+						<div class="center_banner_1">
+							<a href=""><img src="images/index/161x107.jpg" alt="" /></a>
+							<div class="text">
+								<h2>The North Face Ultra系列徒步鞋</h2>
+								<p class="price">价值&nbsp;&yen;1,698</p>
+								<p class="count">免费体验名额12个</p>
+							</div>
+						</div>
+						<ul class="take_in">
+							<li>近期参与</li>
+							<div>
+								<li><a href=""><img src="images/index/middle1.png" alt="" /></a></li>
+								<li><a href=""><img src="images/index/middle2.png" alt="" /></a></li>
+								<li><a href=""><img src="images/index/middle4.png" alt="" /></a></li>
+								<li><a href=""><img src="images/index/middle5.png" alt="" /></a></li>
+								<li><a href=""><img src="images/index/middle6.png" alt="" /></a></li>
+							</div>
+						</ul>
+					</div>
+				</div>
+				<div class="right">
+					<a href="" class="rt">我要点评</a>
+					<h1 class="title">最新目的地点评</h1>
+					<ul class="right_box">
+						<li class="l1" style="margin-bottom:20px;">
+							<a href="" class="userAvatar"><img src="images/index/120-1.jpg" alt="" /></a>
+							<p>
+								<a href=""><b class="userName">wanderland</b></a>
+								点评了
+								<a href=""><span class="otherName">长春黑猪</span></a>
+							</p>
+							<i class="star star4"></i>
+							<div class="words">
+								肉很好吃。对于其他烤肉店来说不算贵。人均八九十的样子。很饱很饱的。在当地都很有名。很多韩国人来这里吃！<a href="">全文</a>
+							</div>
+						</li>
+						<li class="l2">
+							<a href="" class="userAvatar"><img src="images/index/120-2.jpg" alt="" /></a>
+							<p>
+								<a href=""><b class="userName">chefzhong</b></a>
+								点评了
+								<a href=""><span class="otherName">Eataly Roma</span></a>
+							</p>
+							<i class="star"></i>
+							<div class="words">
+								作为一个厨师，真是来对地方了，我连着两天逛这里，吃完早点就去了，在里面吃了复返和晚饭才走，里面东西真好<a href="">全文</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<!-- 备案号 -->
+		<footer id="foot_recoding_box">
+			<div id="foot_recoding">
+				<div class="infos">
+					<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, nulla vero! Dolore dolorem ducimus eligendi esse iusto quis quo recusandae sint suscipit voluptate? Harum magnam nihil omnis perferendis possimus voluptatum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ea eum ex excepturi harum id, in, n unde veniam. Accusantium aspernatur fugiat similique sit vitae.</p>
+				</div>
+				<div class="links">
+					<b class="lf">友情链接</b>
+					<p>
+						<a href="">游伴网</a>&nbsp;|
+						<a href="">游伴网</a>&nbsp;|
+						<a href="">游伴网</a>&nbsp;|
+						<a href="">游伴网</a>&nbsp;|
+						<a href="">游伴网</a>&nbsp;|
+						<a href="">游伴网</a>&nbsp;|
+						<a href="">游伴网</a>&nbsp;|
+						<a href="">游伴网</a>&nbsp;|
+						<a href="">游伴网</a>&nbsp;|
+						<a href="">游伴网</a>&nbsp;|
+						<a href="">游伴网</a>&nbsp;|
+						<a href="">游伴网</a>&nbsp;|
+						<a href="">游伴网</a>&nbsp;|
+						<a href="">游伴网</a>&nbsp;|
+						<a href="">游伴网</a>&nbsp;|
+						<a href="">游伴网</a>&nbsp;|
+						<a href="">游伴网</a>&nbsp;|
+						<a href="">游伴网</a>&nbsp;|
+						<a href="">游伴网</a>&nbsp;|
+						<a href="">游伴网</a>&nbsp;|
+						<a href="">游伴网</a>&nbsp;|
+						<a href="">游伴网</a>&nbsp;|
+						<a href="">游伴网</a>&nbsp;|
+						<a href="">游伴网</a>&nbsp;|
+						<a href="">游伴网</a>&nbsp;|
+						<a href="">游伴网</a>&nbsp;|
+						<a href="">游伴网</a>&nbsp;|
+						<a href="">游伴网</a>&nbsp;|
+						<a href="">游伴网</a>&nbsp;|
+						<a href="">游伴网</a>&nbsp;|
+						<a href="">游伴网</a>&nbsp;
+					</p>
+				</div>
+			</div>
+		</footer>
+		<script src="js/jquery-1.11.3.js"></script>
+		<script src="jquery-ui-1.11.4/jquery-ui.js"></script>
+		<script>	
+			var w = $(window).width();
+			$("#search_box").css("left",parseInt(w)/2-310+"px");
+			$("#carousel_images li").css("width",w);
+			$(window).resize(function(){
+				location.reload();
+				$("#carousel_images li").css("width",w);
+				$("#search_box").css("left",parseInt(w)/2-310+"px");
+			});
+		</script>
+		<script src="js/wow.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
